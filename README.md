@@ -1,21 +1,17 @@
-# RemoveCsvDuplicates
-
-**TODO: Add description**
+# RemoveCSVDuplicates
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `remove_csv_duplicates` to your list of dependencies in `mix.exs`:
+To download, clone this repo. In order to run this project, 
+make sure you have erlang and elixir set to the specified versions (I used asdf to do this). Then, run
 
-```elixir
-def deps do
-  [
-    {:remove_csv_duplicates, "~> 0.1.0"}
-  ]
-end
+```
+mix deps.get
+iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/remove_csv_duplicates>.
+from there, you can run `RemoveCSVDuplicates.remove_duplicates_from_csv(FULL_PATH_TO_INPUT_CSV, PATH_OF_OUTPUT_CSV, :email, :phone, or :email_or_phone depending on the strategy you want to use)`
 
+
+## Testing
+Check out test_input.csv and RemoveCSVDuplicatesTest. To execute tests, execute `mix test` in console

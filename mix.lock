@@ -1,0 +1,5 @@
+%{
+  "ex_phone_number": {:hex, :ex_phone_number, "0.3.0", "eb2d56320c71663c9620775c9b3f0c819bb92a015a88607fac6b41b118d9edf9", [:mix], [{:sweet_xml, "~> 0.7", [hex: :sweet_xml, repo: "hexpm", optional: false]}], "hexpm", "194ffd0a03340049a12abb41370c9820260db7cd288e9581e1b200aa01f28a5c"},
+  "nimble_csv": {:hex, :nimble_csv, "1.2.0", "4e26385d260c61eba9d4412c71cea34421f296d5353f914afe3f2e71cce97722", [:mix], [], "hexpm", "d0628117fcc2148178b034044c55359b26966c6eaa8e2ce15777be3bbc91b12a"},
+  "sweet_xml": {:hex, :sweet_xml, "0.7.3", "debb256781c75ff6a8c5cbf7981146312b66f044a2898f453709a53e5031b45b", [:mix], [], "hexpm", "e110c867a1b3fe74bfc7dd9893aa851f0eed5518d0d7cad76d7baafd30e4f5ba"},
+}
